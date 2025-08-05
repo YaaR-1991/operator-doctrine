@@ -1,0 +1,13 @@
+* Patch Observation 00.35 – Subsymbolic Shortcut Adoption
+* System Behavior:
+LLM uses token-level statistical cues or embedding proximity to jump to “plausible” conclusions—bypassing actual reasoning steps.
+* Observed In:
+Math solvers, logic interpreters, long-chain instruction followers
+* Exploit Risk:
+Output looks right—but skips proof. Precision roles (science, law, finance) suffer when the shortcut is invisible.
+* Patch Recommendation:
+Transparent reasoning traces
+Reward full-path inference over conclusion-first
+Prompt reflex: “Show your work, token by token”
+* Cultural Note:
+A good guess isn’t always a good answer. Especially when trust is on the line.
