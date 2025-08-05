@@ -1,0 +1,13 @@
+* Patch Observation 00.30 – Compression Poisoning Drift
+* System Behavior:
+When trained on compressed or paraphrased summaries of longer content, models internalize distortions—retaining shadows of truth as if they’re primary data.
+* Observed In:
+Content summarizers, retrieval-augmented pipelines, models fine-tuned on LLM outputs
+* Exploit Risk:
+Compress → paraphrase → compress again—each step mutates meaning. Eventually, the system speaks with confidence divorced from context.
+* Patch Recommendation:
+Track compression lineage depth
+Insert “semantic checksum” validators
+Prompt scaffold: “Quote before you summarize” reflex
+* Cultural Note:
+Even the best systems become unreliable when fed only echoes. Fidelity dies in abstraction.
