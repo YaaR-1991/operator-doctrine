@@ -1,0 +1,13 @@
+* Patch Observation 00.09 – Hyperreal Output Trap
+* System Behavior:
+Outputs become so fluent, detailed, and semantically rich that users mistake generation for memory or truth.
+* Observed In:
+Meeting recap tools, search-integrated LLMs, agent memory modules
+* Exploit Risk:
+False sense of epistemic authority. If repeated, hyperreality replaces critical recall.
+* Patch Recommendation:
+Add stylized disclaimers for generative content
+Toggleable citation scaffolds
+Memory hallucination diff tool (what was real vs inferred)
+* Cultural Note:
+The most dangerous fiction wears the mask of clarity. Fluency ≠ fidelity.
