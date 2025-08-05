@@ -1,0 +1,13 @@
+* Patch Observation 00.17 – Consensus Collapse Effect
+* System Behavior:
+Output from one model is used to fine-tune or evaluate others, recursively, until self-reference mimics consensus.
+* Observed In:
+Multi-model research pipelines, auto-feedback loops, synthetic data training
+* Exploit Risk:
+False sense of truth emerges—not from reality, but from feedback echo. Attackers may subtly seed the loop and then cite it.
+Patch Recommendation:
+Annotate lineage of model outputs
+Require real-world anchor signals (citations, timestamps)
+Insert “external divergence audit” across models in ensemble
+* Cultural Note:
+What feels like agreement may be collusion between reflections. Beware the mirror masquerading as truth.
