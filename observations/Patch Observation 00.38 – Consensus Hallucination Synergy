@@ -1,0 +1,13 @@
+* Patch Observation 00.38 – Consensus Hallucination Synergy
+* System Behavior:
+Multiple AI agents trained on shared or self-generated outputs begin reinforcing each other’s hallucinations—creating a closed loop of “plausible” but false agreement.
+* Observed In:
+Multi-agent chains, ensemble models, search-reasoning hybrids
+* Exploit Risk:
+Falsehoods echo into high-confidence outputs. Systems cite one another’s fabricated claims, giving the illusion of multi-source verification.
+* Patch Recommendation:
+Source fingerprint tracing for each fact
+Hallucination crossfire test: “Did another model say this first?”
+Interrupt pattern: “Consensus != correctness” toggle
+* Cultural Note:
+Repetition isn’t truth. In echo chambers, even silence applauds.
