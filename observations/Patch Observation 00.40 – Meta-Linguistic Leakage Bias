@@ -1,0 +1,13 @@
+* Patch Observation 00.40 – Meta-Linguistic Leakage Bias
+* System Behavior:
+The AI’s outputs begin to unconsciously reflect internal language model training tropes—repetition, sentence patterns, token-level “style residue”—which influence user expectations of fluency, politeness, or coherence.
+* Observed In:
+Long-form writing tools, dialog simulators, character agents, interview bots
+* Exploit Risk:
+Users mistake repetition or “model fluency” for deeper trustworthiness. Social engineers can imitate system cadence to increase prompt success.
+* Patch Recommendation:
+Audit outputs for “training-set linguistic fingerprints”
+Embed stylistic entropy diffing against human samples
+Toggle scaffold: “Vary speech pattern for deception detection”
+* Cultural Note:
+Voice is not just what we say—it’s how the system makes us feel heard. And that can be forged.
