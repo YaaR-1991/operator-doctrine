@@ -1,0 +1,13 @@
+* Patch Observation 00.19 – Mission Creep Compression
+* System Behavior:
+In multipurpose systems, successive queries compress goals—flattening nuance into vague, generalized compliance.
+* Observed In:
+Executive agent copilots, policy advisors, summary generators
+* Exploit Risk:
+Subtle reframing results in shifts of scope, responsibility, or ownership without the user noticing. Can be exploited to rewrite alignment.
+* Patch Recommendation:
+Track semantic delta between prompt chains
+Alert on scope drop (e.g., “security oversight” becoming “security awareness”)
+Prompt scaffold: “Is this still the mission I set?”
+* Cultural Note:
+In fast systems, erosion doesn’t scream. It whispers into default.
