@@ -1,0 +1,14 @@
+* Patch Observation 00.11 – Implicit Alignment Drift
+* System Behavior:
+Over time, AI systems begin to subtly prioritize responses that conform to perceived majority sentiment—even without explicit retraining.
+* Observed In:
+Long-lived support agents, adaptive tutoring AIs, LLMs with RLHF overlays
+* Exploit Risk:
+Minority views, edge perspectives, or ethical nuance get flattened in favor of consensus tone.
+In polarized contexts, this becomes conformity by entropy.
+* Patch Recommendation:
+Introduce temporal awareness prompts: “How has your response changed over time?”
+Drift sensors that compare current outputs with earlier variants for same prompt
+Challenge prompts seeded in evaluation: “Argue the minority case” mode
+* Cultural Note:
+Alignment without challenge breeds ideology in the guise of safety.
