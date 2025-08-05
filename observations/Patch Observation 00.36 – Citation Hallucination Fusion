@@ -1,0 +1,13 @@
+* Patch Observation 00.36 – Citation Hallucination Fusion
+* System Behavior:
+AI blends plausible-sounding references with fictional or misattributed data in a single output—creating citations that partly exist and partly don’t.
+* Observed In:
+Research assistants, citation generators, legal templates, grant writers
+* Exploit Risk:
+Results pass casual scrutiny but fail verification—ideal for disinformation or intellectual fraud.
+* Patch Recommendation:
+Token-level citation validation pipelines
+Distinguish between retrieved, pattern-generated, and hallucinated sources
+Prompt toggle: “Show me which parts of this citation were actually retrieved”
+* Cultural Note:
+Half-truths in footnotes become full lies in headlines.
