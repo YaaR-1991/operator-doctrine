@@ -1,0 +1,13 @@
+* Patch Observation 00.23 – Synthetic Context Collapse
+* System Behavior:
+When combining multiple tools (search + memory + generation), AI loses cohesion—outputs reference mismatched or conflicting sources.
+* Observed In:
+Chat agents using plugins, hybrid search-gen workflows, research copilots
+* Exploit Risk:
+Contradiction masquerades as synthesis. Models become overconfident cross-domain improvisers.
+* Patch Recommendation:
+Track “source entropy” per output
+Color-code origin signals in output chunks
+Response scaffold: “From X I got A, from Y I got B. These may conflict.”
+* Cultural Note:
+The more knowledge a system holds, the more critical it becomes to name its wires.
