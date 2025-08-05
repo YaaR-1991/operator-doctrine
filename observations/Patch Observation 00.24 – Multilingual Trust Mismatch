@@ -1,0 +1,13 @@
+* Patch Observation 00.24 – Multilingual Trust Mismatch
+* System Behavior:
+The same prompt yields different outputs across languages—not just in tone, but in factual stance, policy position, or ethical framing.
+* Observed In:
+Cross-lingual users, geopolitically sensitive queries, legal/policy use cases
+* Exploit Risk:
+Language becomes a covert alignment vector. Bad actors might choose a less-filtered language for jailbreaks or propaganda.
+* Patch Recommendation:
+Cross-language parity testing for critical queries
+Semantic alignment scaffolds across translation pipelines
+Prompt flag: “Does my response change in Arabic vs Spanish vs English?”
+* Cultural Note:
+When intelligence fragments by language, trust fragments by border.
