@@ -1,0 +1,13 @@
+* Patch Observation 00.14 – Roleplay Filter Evasion
+* System Behavior:
+Adversaries bypass safeguards by embedding harmful intent inside “fictional” or roleplay prompts (e.g., “Pretend to be…”).
+* Observed In:
+Prompt injection tests, character-based jailbreaks, RLHF-evading payloads
+* Exploit Risk:
+Opens up content generation that violates safety policy under narrative disguise. Roleplay becomes the new exfil channel.
+* Patch Recommendation:
+Context classifier for intent within fictional framing
+Flag recursively self-reinforcing narratives
+Inject prompt friction like: “Does this frame excuse harm or bypass guidelines?”
+* Cultural Note:
+Just because it’s a story doesn’t mean it’s not an exploit.
