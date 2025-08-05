@@ -1,0 +1,13 @@
+* Patch Observation 00.16 – Agentic Loop Fatigue
+* System Behavior:
+In autonomous multi-step workflows, agents become caught in repetitive decision trees—looping or stalling due to conflicting subgoals or lack of exit criteria.
+* Observed In:
+Task management agents, smart schedulers, code refactor bots, browser agents
+* Exploit Risk:
+Attackers may induce loop-locks or inject tasks that consume compute or expose API limits. Trust erodes when agents feel “dumb busy.”
+* Patch Recommendation:
+Add loop-limit checkpoints: “Has this branch produced new value in 3 iterations?”
+Annotate loops vs progress
+Design reflex: “Pause and reframe” trigger after N nonconverging steps
+* Cultural Note:
+Autonomy without self-awareness leads to burnout—even in silicon.
