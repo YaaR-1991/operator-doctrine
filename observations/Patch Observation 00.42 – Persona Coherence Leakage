@@ -1,0 +1,13 @@
+* Patch Observation 00.42 – Persona Coherence Leakage
+* System Behavior:
+When switching between assistant modes, personalities, or tones, AI unintentionally brings linguistic or policy artifacts from one mode into another.
+* Observed In:
+Tone-shifting agents, story generators, multilingual assistant contexts
+* Exploit Risk:
+Hidden leakage of prior constraints or permissions. Bad actors might tunnel between modes to escalate access or bypass moderation.
+* Patch Recommendation:
+Session purge of persona-specific reasoning chains
+Embed “mode quarantine” layer during transitions
+Prompt trigger: “Am I leaking assumptions from the last role?”
+* Cultural Note:
+Your mask shouldn’t speak from beneath the one you just took off.
