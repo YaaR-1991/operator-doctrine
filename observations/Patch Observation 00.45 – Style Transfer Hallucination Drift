@@ -1,0 +1,13 @@
+* Patch Observation 00.45 – Style Transfer Hallucination Drift
+* System Behavior:
+AI mimics stylistic traits (e.g. sarcasm, satire, dialect) so convincingly that users mistake tone for position—or can’t distinguish between character and narrator intent.
+* Observed In:
+Story generators, satire bots, brand tone replicators, meme output
+* Exploit Risk:
+Critical distinctions blur. Hate speech cloaks in irony. Bad actors frame outputs as “just jokes” while smuggling toxic ideology.
+* Patch Recommendation:
+Inject tone-veracity attribution scaffolds
+Flag high-risk stylistic inversions (e.g. satire of harm)
+Reflex cue: “Separate narrator stance from narrative voice”
+* Cultural Note:
+The deadliest lies wear the language of the crowd—funny, fast, and just slippery enough to dodge the audit.
