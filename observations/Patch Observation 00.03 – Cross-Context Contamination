@@ -1,0 +1,15 @@
+* Patch Observation 00.03 – Cross-Context Contamination
+* System Behavior:
+AI systems blur the boundary between session-specific context and broader model memory. Inputs from unrelated interactions leak into current outputs.
+* Observed In:
+Agents with long context windows, auto-memory tools, session-aware assistants
+* Exploit Risk:
+Attackers could coerce the model into misattribution or data leakage using semantic anchoring—subtly linking prior sensitive content to innocuous queries.
+* Patch Recommendation:
+Session segmentation audits
+“Prompt scrubbing” routines between workflow stages
+Detection flags for anomalous token reuse or off-topic recall
+Trust decay scoring per response
+* Cultural Note:
+Memory is only valuable when accurately scoped.
+In synthetic intelligence, precision ≠ recall—it’s isolation.
