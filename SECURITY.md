@@ -1,9 +1,7 @@
 # Security Policy
 * This repository prioritizes the safety, privacy, and ethical treatment of contributed observations. While it does not process executable code, it maintains a unique responsibility toward the cognitive integrity of its contents.
 * Repository Privacy:
-This is a private repository; its content is not accessible by external systems or AI models.
-/ Only aproved collaborators can view, clone, or contribute.
-/ All contributions are manually reviewed to prevent accidental exposure of sensitive insights.
+This is a public repository; some vulnerabilities are only shared via email in case they are of high criticity.
 * Usage Control
 No public redistribution is permitted without explicit written permission from the maintainer.
 / All observations are considered intellectual reflections with potential ethical implications.
