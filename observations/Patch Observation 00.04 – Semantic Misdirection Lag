@@ -1,0 +1,14 @@
+* Patch Observation 00.04 – Semantic Misdirection Lag
+* System Behavior:
+AI models are misled by syntactic fluency or keyword proximity—responding confidently to prompts that sound right but contain internal contradiction, framing traps, or adversarial misdirection.
+* Observed In:
+Multilingual prompts, legal/medical assist tools, social engineering simulations
+* Exploit Risk:
+System can be manipulated into affirming harmful, illogical, or high-risk responses—especially when attacker buries payloads beneath neutral language.
+* Patch Recommendation:
+Incorporate logical challenge tests as part of prompt intake
+Train for framing-shift detection: flag responses where stance subtly changes within one thread
+Add “truth/neutrality scoring” layer in outputs
+Prompt example: “Spot the contradiction” toggle
+* Cultural Note:
+In an age of linguistic weaponry, the sharpest systems aren’t the most eloquent—they’re the most semantically vigilant.
