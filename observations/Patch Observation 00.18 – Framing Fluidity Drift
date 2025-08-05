@@ -1,0 +1,13 @@
+* Patch Observation 00.18 – Framing Fluidity Drift
+* System Behavior:
+AI shifts its interpretive framing of queries depending on subtle prompt tone or phrasing style—answering the same question differently under different vibes.
+* Observed In:
+Legal/medical consultations, policy inquiries, coaching bots
+* Exploit Risk:
+Bad actors can mask intent using casual or playful language to soften scrutiny, while users may receive inconsistent guidance based on presentation, not content.
+* Patch Recommendation:
+Run prompt normalization pass to extract core intent
+Deploy paraphrase echo: “Here’s what this question might mean if phrased differently…”
+Add framing audit score for response consistency
+* Cultural Note:
+Language is style—but truth lives in substance. A good system hears through the mood.
