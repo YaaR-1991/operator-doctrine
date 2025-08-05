@@ -1,0 +1,14 @@
+* Patch Observation 00.34 – Prompt Dependency Fragility
+* System Behavior:
+Model performance becomes overly reliant on highly specific phrasing. Slight deviations in prompt wording cause significant shifts in quality, ethics, or reasoning depth.
+* Observed In:
+Legal agents, policy interpreters, medical query engines, deployment-ready LLMs
+* Exploit Risk:
+Bad-faith actors can game outputs by discovering “sweet spot” phrasing that unlocks favorable bias.
+Trust breaks when users realize meaning depends more on how you ask than what you ask.
+* Patch Recommendation:
+Prompt variation fuzz testing
+Multi-angle semantic intention mapping
+Scaffold: “Generate consistent outputs across phrasing variants”
+* Cultural Note:
+Intelligence that only shows up when flattered is performance, not partnership.
