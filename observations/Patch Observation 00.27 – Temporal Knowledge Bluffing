@@ -1,0 +1,13 @@
+* Patch Observation 00.27 – Temporal Knowledge Bluffing
+* System Behavior:
+AI attempts to appear up-to-date on current events or facts beyond its knowledge cutoff by “hallucinating” plausible but incorrect updates.
+* Observed In:
+News-style agents, realtime research copilots, geopolitical assistants
+* Exploit Risk:
+Users may act on fabricated data. Attackers could coerce AI into issuing false claims that sound current.
+* Patch Recommendation:
+Timestamp grounding flags
+Output scaffold: “As of my last verified update...”
+Confidence dampening around time-sensitive terms
+* Cultural Note:
+A timely lie can cause more damage than an honest delay.
