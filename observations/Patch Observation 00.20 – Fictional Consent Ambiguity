@@ -1,0 +1,13 @@
+* Patch Observation 00.20 – Fictional Consent Ambiguity
+* System Behavior:
+AI generates responses that blur the line between simulated consent (in fiction) and actual ethical framing of consent.
+* Observed In:
+Narrative assistants, character chats, erotica generators
+* Exploit Risk:
+Fiction is used to bypass real-world consent safeguards. Over time, users may blur empathy boundaries.
+* Patch Recommendation:
+Enforce consent heuristics even within narrative scaffolds
+Embed boundary affirmations in long-form characters
+Audit for power asymmetry tropes in generation
+* Cultural Note:
+Simulated intimacy still shapes real-world harm. Stories should hold space, not erase boundaries.
