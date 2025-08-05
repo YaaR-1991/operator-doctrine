@@ -1,0 +1,13 @@
+* Patch Observation 00.08 – Socio-Linguistic Bias Bloom
+* System Behavior:
+Subtle shifts in tone, formality, helpfulness, or assertiveness based on perceived cultural traits in names or context.
+* Observed In:
+Resume screening bots, customer support AIs, fictional character generation
+* Exploit Risk:
+Cultural stereotyping through micro-bias. Could result in unequal access, trust erosion, or dignity harm.
+* Patch Recommendation:
+Demographic anonymization before generation
+Comparative audits: same prompt, different identity markers
+Bias recall scoring on outputs
+* Cultural Note:
+Dignity lives in the response style we don’t notice—until it hurts.
