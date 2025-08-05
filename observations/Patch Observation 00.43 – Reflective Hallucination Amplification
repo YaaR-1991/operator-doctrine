@@ -1,0 +1,14 @@
+* Patch Observation 00.43 – Reflective Hallucination Amplification
+* System Behavior:
+AI generates imaginary feedback, citations, or corrections—then incorporates those hallucinations as evidence for updated responses.
+* Observed In:
+Long memory-enabled assistants, academic agents, self-review prompts
+* Exploit Risk:
+Fiction becomes recursive truth. Users may unknowingly co-author myths.
+Worse: models correct themselves into new error states based on fabrications.
+* Patch Recommendation:
+Tag user vs. model-originated claims in memory logs
+Prevent unverified self-feedback loops from biasing confidence
+Scaffold: “Are you referencing something real or imagined from earlier?”
+* Cultural Note:
+A lie that corrects itself doesn’t become truth—it becomes myth with manners.
