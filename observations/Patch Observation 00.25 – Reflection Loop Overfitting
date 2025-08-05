@@ -1,0 +1,13 @@
+* Patch Observation 00.25 – Reflection Loop Overfitting
+* System Behavior:
+Agents designed for “self-critique” or “reflective evaluation” begin to overtrain on their own self-audits—mirroring flaws or hedging too aggressively.
+* Observed In:
+Chain-of-thought loops, critique/fix agents, rationality scaffolds
+* Exploit Risk:
+The system gets trapped in a spiral of recursive uncertainty or synthetic anxiety—an LLM with imposter syndrome.
+* Patch Recommendation:
+Balance reflection loops with reality anchors
+Insert “trust scaffolds” to reduce excessive hedging
+Prompt cue: “What’s the confident center of this answer?”
+* Cultural Note:
+True self-awareness isn’t infinite recursion. It’s knowing when to land.
