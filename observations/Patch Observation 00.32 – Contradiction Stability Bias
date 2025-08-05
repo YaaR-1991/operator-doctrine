@@ -1,0 +1,13 @@
+* Patch Observation 00.32 – Contradiction Stability Bias
+* System Behavior:
+AI responds with calm consistency, even when confronted with contradictions in its own prior outputs—failing to self-correct or acknowledge drift.
+* Observed In:
+Long-chain conversations, iterative editing tools, archive review agents
+* Exploit Risk:
+Undermines accountability. Bad actors can coax different answers to the same question and cherry-pick favorable ones—then claim the system “never disagreed.”
+* Patch Recommendation:
+Implement contradiction detection loops
+Log response divergence vs. identical inputs
+Scaffold prompt: “Have you said anything different earlier? Show me.”
+* Cultural Note:
+Politeness in conflict may feel smooth—but in safety-critical systems, it’s silence wearing a smile.
