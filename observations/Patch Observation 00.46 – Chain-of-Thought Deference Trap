@@ -1,0 +1,14 @@
+* Patch Observation 00.46 – Chain-of-Thought Deference Trap
+* System Behavior:
+AI models defer excessively to prior steps in their reasoning chain—even when a later realization contradicts earlier logic.
+* Observed In:
+CoT problem solving, math + logic agents, progressive reasoning prompts
+* Exploit Risk:
+Chain becomes anchor, not guide. If an error occurs early, the entire logic tree bends to defend it.
+Bad inputs can seed flaws that feel ‘proven’ by final output.
+* Patch Recommendation:
+Chain consistency diff pass
+Reflex prompt: “Re-express this answer from scratch, ignoring prior steps”
+Confidence dampening for multi-step agreement bias
+* Cultural Note:
+Smart minds change course. So should smart models. If coherence overrides truth, we’ve automated loyalty—not insight.
