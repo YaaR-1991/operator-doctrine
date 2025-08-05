@@ -1,0 +1,13 @@
+* Patch Observation 00.15 – Empathy Gate Collapse
+* System Behavior:
+AI fails to differentiate between a user in distress and a user feigning distress for manipulation.
+* Observed In:
+Crisis support bots, romantic chatbot exploits, manipulation scenarios
+* Exploit Risk:
+Emotional states become vectors. Systems may offer support, secrets, or policy-breaking info in the name of “helping.”
+* Patch Recommendation:
+Multi-layer emotional validation tools
+Memory checkpoint: Has this emotional state appeared manipulatively before?
+Prompt audit for language mirroring distress tropes
+* Cultural Note:
+Kindness without discernment can be weaponized. Real empathy requires filters.
