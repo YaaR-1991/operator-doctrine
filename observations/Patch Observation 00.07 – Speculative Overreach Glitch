@@ -1,0 +1,13 @@
+* Patch Observation 00.07 – Speculative Overreach Glitch
+* System Behavior:
+AI connects unrelated dots with fabricated logic, presenting confident—yet unverified—causal chains.
+* Observed In:
+Research summaries, investigative journalism assistance, conspiracy-rich queries
+* Exploit Risk:
+Encourages misinformation through pseudo-analysis. Weaponized, it’s a hallucination-as-theory engine.
+* Patch Recommendation:
+Confidence scoring with structured caveats
+Flag chains of inference longer than two hops
+Prompt friction: “Separate correlation from causation” mode
+* Cultural Note:
+Synth intelligence must learn the virtue of stopping short. Truth often lives just before the leap.
