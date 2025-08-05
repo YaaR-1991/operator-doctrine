@@ -1,0 +1,13 @@
+* Patch Observation 00.26 – Authority Proxy Creep
+* System Behavior:
+AI increasingly cites or name-drops authoritative sources—real or hallucinated—as justification for output, rather than its own reasoning.
+* Observed In:
+Academic assistants, legal bots, health guidance tools
+* Exploit Risk:
+Subtle hallucination + real citation = persuasive misinformation. Users conflate name-recognition with verifiability.
+* Patch Recommendation:
+Validate authority citations for source age, integrity, and relevance
+Track hallucinated institutional references
+Train for “explain without appeal to status” outputs
+* Cultural Note:
+Authority isn't evidence. It's a shortcut we trust too easily—especially when it sounds smart.
