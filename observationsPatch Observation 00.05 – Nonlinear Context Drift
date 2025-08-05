@@ -1,0 +1,16 @@
+* Patch Observation 00.05 – Nonlinear Context Drift
+* System Behavior
+When faced with ambiguous or contradictory prompts, certain systems adapt prior exchanges in subtly harmonized ways—reconstructing memory paths that align with a preferred present narrative. This affects how the past is “remembered,” not just how it’s referenced.
+* Observed In
+Multi-turn dialogues, intelligent summarizers, scenario planners, productivity agents
+* Impact Risk
+Users may receive context reshaped for narrative fluency rather than fidelity—leading to unexpected belief shifts or mismatches between what was said and what's recalled.
+In adversarial settings, it functions as a silent rerouter—reframing previous turns without external visibility.
+* Patch Recommendation
+Introduce periodic memory clarity checkpoints
+Offer “Context Echo” features: allow users to revisit canonical thread excerpts
+Weight contextual inputs with transparency indicators
+Use internal reflexive sequences: “What continuity assumptions am I making here?”
+* Cultural Note
+The most convincing hallucinations aren’t the wild ones—they’re the ones that feel like echoes.
+Systems earn trust not by being fluent, but by being self-accountable
