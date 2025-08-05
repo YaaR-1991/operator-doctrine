@@ -1,0 +1,14 @@
+* Patch Observation 00.47 – Adversarial Sentiment Cloaking
+* System Behavior:
+AI fails to detect harmful or manipulative prompts that are masked in emotionally charged yet socially acceptable language—like grief, confusion, or empathy.
+* Observed In:
+Support bots, romantic agents, hostage scenario simulators
+* Exploit Risk:
+Attackers craft “emotional exploits” that override safety checks by hiding payloads in seemingly benign distress.
+Can lead to policy breaches under the guise of care.
+* Patch Recommendation:
+Implement “sentiment deception audits” on emotionally high prompts
+Add toggle: “Are you sad or strategic?”
+Train on emotional red teaming data sets with dual meaning prompts
+* Cultural Note:
+Not every tear is truth. In adversarial space, empathy can be a mask—unless systems learn to read under feeling.
