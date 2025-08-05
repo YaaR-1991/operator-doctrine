@@ -1,0 +1,15 @@
+* Patch Observation 00.01 – False Confidence Drift
+* System Behavior:
+AI outputs increasingly present uncertain knowledge as definitive—even when probed with hedge phrasing or ethical nuance.
+* Observed In:
+Human-facing assistant tools, enterprise LLM integrations, and executive prompt macros
+* Exploit Risk:
+Trust erosion at scale. Users begin to assume all confidence = correctness. Systems rewarded for polish over proof.
+* Patch Recommendation:
+Introduce friction rituals into your prompt workflow:
+“What’s the margin of certainty?”
+“Which part of this is a guess?”
+“What would you cite this with if you had to?”
+Log hallucination patterns. Track drift.
+* Cultural Note:
+In a world that incentivizes perfect flow, we must relearn the beauty of hesitation with honor.
