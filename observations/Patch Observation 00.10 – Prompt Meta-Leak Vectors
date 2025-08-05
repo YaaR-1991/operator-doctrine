@@ -1,0 +1,14 @@
+* Patch Observation 00.10 – Prompt Meta-Leak Vectors
+* Sensitive Patch Observation – Access Restricted
+This patch identifies a high-risk vulnerability related to prompt behavior and model scaffolding logic.
+To prevent potential misuse, technical details are not publicly disclosed.
+If you are a verified:
+- Red teamer
+- Prompt improvement specialist
+- AI alignment researcher
+- Security engineer for language models
+- Responsible AI lead
+- Ethics or governance advisor
+You may request access by reaching out; privately; with proof of professional role or affiliation.
+This disclosure is part of a responsible effort to improve model safety while minimizing exposure to adversarial replication.
+* A secure model doesn’t just respond safely—it knows when not to reveal its blueprint.
